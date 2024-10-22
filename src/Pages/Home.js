@@ -54,7 +54,6 @@ const Home = () => {
           <p>Hello! I'm Vishnu, a Computer Science Engineering student with a passion for technology and problem-solving. This portfolio showcases my Projects, Skills in Web development, algorithms, system design and Contact details. I enjoy working with web development and constantly exploring new technologies.</p>
         </div>
         <a className='btn' href={resume} download>Download Resume</a>
-        <a className='btn' href="https://mega.nz/file/Iq8A0IIR#UzppNVBIrLrGIlYrwRNm5EPkucT_w3X7WThAP73IolM" target='blank' download>Download Resume</a>
       </div>
       <div className='imgae'>
         <div className='im'>

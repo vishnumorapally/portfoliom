@@ -1,0 +1,93 @@
+.about-open{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    padding-top: 50px;
+    flex-wrap: wrap;
+}
+
+h3{
+    color: rgb(74, 231, 255);
+}
+
+.hobies{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: flex-start;
+    transition: all 0.5s linear;
+}
+.platforms{
+    transition: all 0.5s linear;
+}
+.plat{
+    display: flex;
+    gap: 20px;
+}
+
+.lin{
+    color: white;
+    text-decoration: none;
+}
+
+.plat img{
+    width: 40px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+.overview{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+    transition: all 0.5s linear;
+}
+.twoparts{
+    display: flex;
+    gap: 30px;
+}
+.str{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.other{
+    max-width: 70vw;
+    transition: all 0.5s linear;
+}
+
+.w-str{
+    width: 200px;
+}
+
+@media screen and (max-width:900px) {
+    .about-open{
+        padding-left: 20px;
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center; */
+        align-items: flex-start;
+        padding-top: 30px;
+    }
+    .hobies{
+        max-height: 9vh;
+        overflow: hidden;
+    }
+    .platforms{
+        max-height: 10vh;
+        overflow: hidden;
+    }
+    .overview{
+        max-height: 10vh;
+        max-width: 100px;
+        overflow: hidden;
+    }
+    .twoparts{
+        flex-wrap: wrap;
+    }
+    .other{
+        max-height: 8vh;
+        overflow: hidden;
+    }
+}
